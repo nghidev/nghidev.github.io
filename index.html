@@ -1,0 +1,455 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Bootstrap-ecommerce by Vosidiy">
+
+	<title>Bootstrap ecommerce UI KIT - Alibaba example html template </title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+	<!-- jQuery -->
+	<script src="js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+	<!-- Bootstrap4 files-->
+	<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+	<link href="css/bootstrap-custom.css" rel="stylesheet" type="text/css" />
+
+	<!-- Font awesome 5 -->
+	<link href="fonts/fontawesome/css/fontawesome-all.min.css" type="text/css" rel="stylesheet">
+
+	<!-- plugin: fancybox  -->
+	<script src="plugins/fancybox/fancybox.min.js" type="text/javascript"></script>
+	<link href="plugins/fancybox/fancybox.min.css" type="text/css" rel="stylesheet">
+
+	<!-- plugin: owl carousel  -->
+	<link href="plugins/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="plugins/owlcarousel/assets/owl.theme.default.css" rel="stylesheet">
+	<script src="plugins/owlcarousel/owl.carousel.min.js"></script>
+
+	<!-- custom style -->
+	<link href="css/uikit.css" rel="stylesheet" type="text/css" />
+	<link href="css/responsive.css" rel="stylesheet" media="only screen and (max-width: 1200px)" />
+
+	<!-- custom javascript -->
+	<script src="js/script.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!-- <script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+	// jQuery code
+
+}); 
+// jquery end
+</script> -->
+
+</head>
+
+<body>
+	<header class="section-header">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img class="logo" src="images/logos/logo-alibaba.png"
+						alt="alibaba style e-commerce html template file" title="alibaba e-commerce html css theme"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop"
+					aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarTop">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle"
+								data-toggle="dropdown"> Sourcing </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Top Suppliers</a></li>
+								<li><a class="dropdown-item" href="#">Suppliers by Regions </a></li>
+								<li><a class="dropdown-item" href="#">Online Retailer </a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle"
+								data-toggle="dropdown"> Services </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Trade Assurance </a></li>
+								<li><a class="dropdown-item" href="#">Arabic</a></li>
+								<li><a class="dropdown-item" href="#">Logistics Service </a></li>
+								<li><a class="dropdown-item" href="#">Membership Services</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle"
+								data-toggle="dropdown"> Community </a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Help Center</a></li>
+								<li><a class="dropdown-item" href="#">Submit a Dispute </a></li>
+								<li><a class="dropdown-item" href="#">For Suppliers </a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item"><a href="#" class="nav-link"> Multi Request </a></li>
+						<li class="nav-item"><a href="http://bootstrap-ecommerce.com/" class="nav-link"> Download </a>
+						</li>
+
+					</ul> <!-- navbar-nav.// -->
+				</div> <!-- collapse.// -->
+			</div>
+		</nav>
+
+		<section class="header-main shadow-sm">
+			<div class="container">
+				<div class="row-sm align-items-center">
+					<div class="col-lg-4-24 col-sm-3">
+						<div class="category-wrap dropdown py-1">
+							<button type="button" class="btn btn-light  dropdown-toggle" data-toggle="dropdown"><i
+									class="fa fa-bars"></i> Categories</button>
+							<div class="dropdown-menu " id="show_categories">
+								<!-- <a class="dropdown-item" href="#">Machinery / Mechanical Parts / Tools </a> -->
+
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-11-24 col-sm-8">
+						<form action="#" class="py-1">
+							<div class="input-group w-100">
+								<select class="custom-select" name="category_name">
+									<option value="">All type</option>
+									<option value="">Special</option>
+									<option value="">Only best</option>
+									<option value="">Latest</option>
+								</select>
+								<input type="text" class="form-control" style="width:50%;" placeholder="Search">
+								<div class="input-group-append">
+									<button class="btn btn-warning" type="submit">
+										<i class="fa fa-search"></i> Search
+									</button>
+								</div>
+							</div>
+						</form> <!-- search-wrap .end// -->
+					</div> <!-- col.// -->
+					<div class="col-lg-9-24 col-sm-12">
+						<div class="widgets-wrap float-right row no-gutters py-1">
+							<div class="col-auto" id="show_profile">
+							
+							</div> 
+							<div class="col-auto">
+								<a href="#" class="widget-header">
+									<div class="icontext">
+										<div class="icon-wrap"><i class="text-warning icon-sm fa fa-shopping-cart"></i>
+										</div>
+										<div class="text-wrap text-dark">
+											<div id="show_amount_order">
+												<!-- <span class="small round badge badge-secondary">0</span> -->
+											</div>
+											Order <br> Protection
+										</div>
+									</div>
+								</a>
+							</div> <!-- col.// -->
+							<div class="col-auto">
+								<a href="#" class="widget-header">
+									<div class="icontext">
+										<div class="icon-wrap"><i class="text-warning icon-sm  fa fa-heart"></i></div>
+										<div class="text-wrap text-dark">
+											<span class="small round badge badge-secondary">0</span>
+											<div>Favorites</div>
+										</div>
+									</div>
+								</a>
+							</div> <!-- col.// -->
+						</div> <!-- widgets-wrap.// row.// -->
+					</div> <!-- col.// -->
+				</div> <!-- row.// -->
+			</div> <!-- container.// -->
+		</section> <!-- header-main .// -->
+	</header> <!-- section-header.// -->
+
+	<!-- ========================= SECTION MAIN ========================= -->
+
+	<!-- ========================= SECTION MAIN END// ========================= -->
+
+
+	<!-- ========================= SECTION CONTENT ========================= -->
+
+	<!-- ========================= SECTION CONTENT END// ========================= -->
+
+	<!-- ========================= SECTION CONTENT ========================= -->
+
+	<!-- ========================= SECTION CONTENT END// ========================= -->
+
+	<!-- ========================= SECTION REQUEST ========================= -->
+
+	<!-- ========================= SECTION REQUEST .END// ========================= -->
+
+	<!-- ========================= SECTION ITEMS ========================= -->
+	<section class="section-request bg padding-y-sm">
+		<div class="container">
+			<header class="section-heading heading-line">
+				<h4 class="title-section bg text-uppercase">Recommended items</h4>
+			</header>
+
+			<div class="row-sm" id="show_limit_product">
+
+
+			</div> <!-- row.// -->
+
+
+		</div><!-- container // -->
+	</section>
+	<!-- ========================= SECTION ITEMS .END// ========================= -->
+
+	<!-- ========================= SECTION LINKS ========================= -->
+	<section class="section-links bg padding-y-sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<header class="section-heading heading-line">
+						<h4 class="title-section bg text-uppercase">Suppliers by Region</h4>
+					</header>
+
+					<ul class="list-icon row">
+						<li class="col-md-4"><a href="#"><img src="images/icons/flag-usa.png"><span>United
+									States</span></a></li>
+						<li class="col-md-4"><a href="#"><img src="images/icons/flag-in.png"><span>India</span></a></li>
+						<li class="col-md-4"><a href="#"><img src="images/icons/flag-tr.png"><span>Turkey</span></a>
+						</li>
+						<li class="col-md-4"><a href="#"><img src="images/icons/flag-kr.png"><span>Korea</span></a></li>
+						<li class="col-md-4"><a href="#"><img src="images/icons/flag-tr.png"><span>Turkey</span></a>
+						</li>
+						<li class="col-md-4"><a href="#"><img src="images/icons/flag-kr.png"><span>Korea</span></a></li>
+					</ul>
+				</div> <!-- col // -->
+
+				<div class="col-sm-6">
+					<header class="section-heading heading-line">
+						<h4 class="title-section bg text-uppercase">Trade services</h4>
+					</header>
+					<ul class="list-icon row">
+						<li class="col-md-4"><a href="#"><i class="icon fa fa-comment"></i><span>Trade
+									Assistance</span></a></li>
+						<li class="col-md-4"><a href="#"><i class="icon  fa fa-suitcase"></i><span>Business
+									Identity</span></a></li>
+						<li class="col-md-4"><a href="#"><i class="icon fa fa-globe"></i><span>Worldwide
+									delivery</span></a></li>
+						<li class="col-md-4"><a href="#"><i class="icon fa fa-phone-square"></i><span>Customer
+									support</span></a></li>
+						<li class="col-md-4"><a href="#"><i class="icon fa fa-globe"></i><span>Worldwide
+									delivery</span></a></li>
+						<li class="col-md-4"><a href="#"><i class="icon fa fa-phone-square"></i><span>Customer
+									support</span></a></li>
+					</ul>
+				</div> <!-- col // -->
+			</div><!-- row // -->
+
+			<figure class="mt-3 banner p-3 bg-secondary">
+				<div class="text-lg text-center white">Another banner can be here</div>
+			</figure>
+
+		</div><!-- container // -->
+	</section>
+	<!-- ========================= SECTION LINKS END.// ========================= -->
+
+	<!-- ========================= SECTION SUBSCRIBE ========================= -->
+	<section class="section-subscribe bg-secondary padding-y-lg">
+		<div class="container">
+
+			<p class="pb-2 text-center white">Delivering the latest product trends and industry news straight to your
+				inbox</p>
+
+			<div class="row justify-content-md-center">
+				<div class="col-lg-4 col-sm-6">
+					<form class="row-sm form-noborder">
+						<div class="col-8">
+							<input class="form-control" placeholder="Your Email" type="email">
+						</div> <!-- col.// -->
+						<div class="col-4">
+							<button type="submit" class="btn btn-block btn-warning"> <i class="fa fa-envelope"></i>
+								Subscribe </button>
+						</div> <!-- col.// -->
+					</form>
+					<small class="form-text text-white-50">We’ll never share your email address with a third-party.
+					</small>
+				</div> <!-- col-md-6.// -->
+			</div>
+
+
+		</div> <!-- container // -->
+	</section>
+	<!-- ========================= SECTION SUBSCRIBE END.//========================= -->
+
+	<!-- ========================= FOOTER ========================= -->
+	<footer class="section-footer bg-secondary">
+		<div class="container">
+			<section class="footer-top padding-top">
+				<div class="row">
+					<aside class="col-sm-3 col-md-3 white">
+						<h5 class="title">Customer Services</h5>
+						<ul class="list-unstyled">
+							<li> <a href="#">Help center</a></li>
+							<li> <a href="#">Money refund</a></li>
+							<li> <a href="#">Terms and Policy</a></li>
+							<li> <a href="#">Open dispute</a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-3  col-md-3 white">
+						<h5 class="title">My Account</h5>
+						<ul class="list-unstyled">
+							<li> <a href="#"> User Login </a></li>
+							<li> <a href="#"> User register </a></li>
+							<li> <a href="#"> Account Setting </a></li>
+							<li> <a href="#"> My Orders </a></li>
+							<li> <a href="#"> My Wishlist </a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-3  col-md-3 white">
+						<h5 class="title">About</h5>
+						<ul class="list-unstyled">
+							<li> <a href="#"> Our history </a></li>
+							<li> <a href="#"> How to buy </a></li>
+							<li> <a href="#"> Delivery and payment </a></li>
+							<li> <a href="#"> Advertice </a></li>
+							<li> <a href="#"> Partnership </a></li>
+						</ul>
+					</aside>
+					<aside class="col-sm-3">
+						<article class="white">
+							<h5 class="title">Contacts</h5>
+							<p>
+								<strong>Phone: </strong> +123456789 <br>
+								<strong>Fax:</strong> +123456789
+							</p>
+
+							<div class="btn-group white">
+								<a class="btn btn-facebook" title="Facebook" target="_blank" href="#"><i
+										class="fab fa-facebook-f  fa-fw"></i></a>
+								<a class="btn btn-instagram" title="Instagram" target="_blank" href="#"><i
+										class="fab fa-instagram  fa-fw"></i></a>
+								<a class="btn btn-youtube" title="Youtube" target="_blank" href="#"><i
+										class="fab fa-youtube  fa-fw"></i></a>
+								<a class="btn btn-twitter" title="Twitter" target="_blank" href="#"><i
+										class="fab fa-twitter  fa-fw"></i></a>
+							</div>
+						</article>
+					</aside>
+				</div> <!-- row.// -->
+				<br>
+			</section>
+			<section class="footer-bottom row border-top-white">
+				<div class="col-sm-6">
+					<p class="text-white-50"> Made with <3 <br> by Vosidiy M.</p>
+				</div>
+				<div class="col-sm-6">
+					<p class="text-md-right text-white-50">
+						Copyright &copy <br>
+						<a href="http://bootstrap-ecommerce.com" class="text-white-50">Bootstrap-ecommerce UI kit</a>
+					</p>
+				</div>
+			</section> <!-- //footer-top -->
+		</div><!-- //container -->
+	</footer>
+	<!-- ========================= FOOTER END // ========================= -->
+	<a href="" style="text-decoration: none;"></a>
+	<script>
+		$(document).ready(function () {
+			var categories_url = 'https://fakestoreapi.com/products/categories'
+			var homepage_product_url = 'https://fakestoreapi.com/products?limit=9'
+			var amount_product_in_card = 'https://fakestoreapi.com/carts/1'
+			var get_categories_url = {
+				"url": categories_url,
+				"method": "GET",
+				"timeout": 0,
+			};
+
+			$.ajax(get_categories_url).done(function (response) {
+				console.log(response)
+				var tam1
+				response.forEach(item => {
+					console.log(item)
+					tam1 = `<a class="dropdown-item" href="starter-alibaba-listing-grid.html?categories_val=${item}">${item}</a>`
+					$('#show_categories').append(tam1)
+				})
+			});
+
+			// url của phần chi tiết sản phẩm để hiển thị trên trang chủ 
+			var homepage_product = {
+				"url": homepage_product_url,
+				"method": "GET",
+				"timeout": 0,
+			};
+
+			$.ajax(homepage_product).done(function (response) {
+				console.log(response);
+				var tam2
+				response.forEach(item => {
+					// console.log(item.title)
+					tam2 = `	<div class="col-md-4">
+					<figure class="card card-product">
+						<div class="img-wrap"> <img src="${item.image}"></div>
+						<figcaption class="info-wrap">
+							<h6 class="title "><a href="starter-alibaba-product-detail.html?detail_product=${item.id}">${item.title}</a></h6>
+
+							<div class="price-wrap">
+								<span class="price-new">$1280</span>
+								<del class="price-old">$1980</del>
+							</div> <!-- price-wrap.// -->
+
+						</figcaption>
+					</figure> <!-- card // -->
+				</div> <!-- col // -->`
+					$('#show_limit_product').append(tam2)
+				})
+			});
+			var amount_pro_in_card = {
+				"url": amount_product_in_card,
+				"method": "GET",
+				"timeout": 0,
+			};
+
+			$.ajax(amount_pro_in_card).done(function (response) {
+				console.log(response.products);
+				// response.products.forEach(item => {
+				// 	console.log(item.productId)
+				// 	var tam3
+				tam3 = `<a class="small round badge badge-secondary"href="starter-page-listing.html?url_order_val=${response.id}" style="color:white;">${response.products.length}</a>`
+				$('#show_amount_order').append(tam3)
+				// })
+
+				// var tam3
+				// tam3 = `<a class="small round badge badge-secondary"href="starter-page-listing.html?" style="color:white;">${response.products.length}</a>`
+				// $('#show_amount_order').append(tam3)
+			});
+			var profile = {
+				"url": "https://fakestoreapi.com/users/1",
+				"method": "GET",
+				"timeout": 0,
+			};
+			var tam4
+			$.ajax(profile).done(function (response) {
+				console.log(response.name.firstname);
+				tam4 = `<div class="widget-header dropdown">
+									<a href="#" data-toggle="dropdown" data-offset="20,10">
+										<div class="icontext">
+											<div class="icon-wrap"><i class="text-warning icon-sm fa fa-user"></i></div>
+											<div class="text-wrap text-dark">
+												${response.name.firstname}
+												<i class="fa fa-caret-down"></i>
+											</div>
+										</div>
+									</a>
+									<div class="dropdown-menu">
+
+										<hr class="dropdown-divider"> -->
+										<a class="dropdown-item" href="#">Thông tin tài khoản</a>
+										<a class="dropdown-item" href="#">Đơn hàng</a>
+									</div>
+								</div>`
+				$('#show_profile').append(tam4)
+			});
+		})
+	</script>
+</body>
+
+</html>
